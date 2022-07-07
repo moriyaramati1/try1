@@ -1,0 +1,9 @@
+name,age,gender,apartment_number,parent_of,married_to,sibling
+Monica,32,Female,20,,Chendler,Ross
+Rachel,32,Female,20,Emma,,
+Phebe,31,Female,,,Mike,
+Ross,34,Male,,Emma,,Monica
+Chendler,32,Male,19,,Monica,
+Joey,32,Male,19,,,
+Emma,1,Female,,,,
+Mike,33,Male,,,,

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create_Relationship</title>
+</head>
+<body>
+        <h1>Choose two nodes for relationship</h1>
+        <p>The arrow comes out from the first vertex you'll choose.</p>
+
+        <form action="/create_relationship/res">>
+        <label for="first_node">Choose the first node:</label>
+        <select name="first_node">
+        <option value="Apartment">Apartment</option>
+        <option value="Person">Person</option>
+        </select>
+        <label for="sec_node">Choose the second node:</label>
+        <select name="sec_node">
+        <option value="Apartment">Apartment</option>
+        <option value="Person">Person</option>
+        </select>
+        <br><br><br>
+        <label for="relationship">Choose the Relationship type:</label>
+        <select name="relationship">
+        <option value="Lives_in">Lives in</option>
+        <option value="Parents_of">Parents of</option>
+        <option value="Sibling">Sibling</option>
+        <option value="Married_to">Married to</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Submit">
+        </form>
+
+</body>
+</html>
